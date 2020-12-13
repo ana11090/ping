@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+
+  }
+
+  body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+.container{
+    display:  block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    
+    
+}
+
+.logo{
+    
+}
+
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 59%);
+
+}
+
+span{
+    color: black;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+#error{
+    color: hsl(354, 100%, 66%);
+    margin-top: 8px;
+    margin-right: 160px;
+    font-size: 13px;
+}
+
+
+
+.image{
+    width: 500px;
+    height: 380px;
+    margin-top: 30px;
+    
+}
+
+image:focus{
+    outline: none;
+}
+
+.email{
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    /* margin-right: 10px; */
+    border-color:  hsl(223, 100%, 88%);
+    border-width: 2px;
+    border-style:solid;
+    margin-right: 10px;
+
+   
+}
+
+
+input{
+    padding-left: 10px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color:  hsl(223, 87%, 63%);
+    border-radius: 25px;
+    border:none;
+    
+
+
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
