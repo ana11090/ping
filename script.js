@@ -11,8 +11,7 @@ var x=0;
         console.log(e);
         const email=e.indexOf("@");
         console.log(email);
-            6
-
+            
             if (((email==-1) || (e==""))  && (x===0))
              {document.getElementById("myDiv").style.borderColor = "hsl(354, 100%, 66%)";
             let text =document.createElement("p");
